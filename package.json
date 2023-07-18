@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "lint-staged": "lint-staged",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --fix --ext .ts",
     "start": "ng serve",
@@ -46,7 +47,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint:fix",
+      "pre-commit": "npm run lint-staged",
       "pre-push": "npm test"
     }
   },
