@@ -22,14 +22,7 @@
         "argsIgnorePattern": "_"
       }
     ],
-    "@typescript-eslint/array-type": "error",
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "trailingComma": "es5"
-      }
-    ]
+    "@typescript-eslint/array-type": "error"
   },
   "overrides": [
     {
